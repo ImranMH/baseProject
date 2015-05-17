@@ -1,0 +1,19 @@
+{
+  "name": "skyapp",
+  "version": "0.0.0",
+  "authors": [
+    "Imran Hossain <imran096@gmail.com>"
+  ],
+  "description": "test app with sass and bootstrap in jekyll",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.3.0"
+  }
+}
