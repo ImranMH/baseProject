@@ -1,0 +1,23 @@
+---
+
+---
+/* 
+project name:skyapp
+creation start: 17-05-15
+pawered By : jekyll engine
+tools: sass, bootstrap, bourbon,
+author:imran
+purpose : test web project
+new thing testing :
+ */
+
+//thirt party vendor css file not gonna touch it
+@import '0-tools/all';
+// base scss file with variable functions etc gonna apply for all file
+@import '1-base/all';
+// special modular scss file for various component
+@import '2-module/all';
+// site hader footer file for design layout
+@import '3-layouts/all';
+// page specific scss file for design layout
+@import '4-pages/all';
