@@ -1,5 +1,10 @@
-.button{
-	width: 300px;
-	height: 300px;
-	background: #333;
+/* buttons */
+.btn-primary{
+	background:darken($primary-color, 30%);
+	@include add-border(2px, #fff,all);
+	text-transform: capitalize;
+	&:hover{
+		@include add-border(2px, #fff,all);
+		@include add-background($primary-color) ;
+	}
 }

@@ -1,0 +1,35 @@
+/* showcase section */
+.showcase{
+	height:$section-height;
+	background: url(/images/post_gallery_2.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	
+	.showcase-content{
+		padding:100px 0px;
+		
+	}
+	.showcasetext{
+		text-align: center;
+		padding: 0 200px;
+		h1{
+			color:$light-color;
+		}
+	}
+}
+.show_img_wrap{
+	margin: 0 auto;
+	width: 400px;
+	.download{
+	    @extend %img-banner;
+	}
+	.app_store{
+		 @extend %img-banner;
+		 a{
+		 	padding-left:20px;
+			padding-right:20px;
+		 }
+		 
+	}
+}

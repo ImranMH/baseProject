@@ -1,0 +1,25 @@
+/* serach box */
+.search{
+	width: 100%;
+	
+	
+	input[type= search]{
+		//border: 0px;
+		width: 80%;
+		height: 50px;
+		@include add-border(2px, $primary-color, 'all');
+		font-size: 18px;
+		padding: 0 0 5px 10px ;
+	}
+	button[type= submit]{
+		  border: 2px solid #00aff0;
+		  border-bottom: 3px solid #00aff0;
+		  background: #00aff0;
+		  color: #fff;
+		  /* margin-top: 5px; */
+		  vertical-align: bottom;
+		  margin-left: -4px;
+		  padding: 4px 10px;
+		
+	}
+}

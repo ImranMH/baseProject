@@ -1,1 +1,21 @@
 /* footer area */
+.footer-main{
+	@include background($dark-color);
+	@include add-border(5px,$secondary-color,top);
+	z-index:1000;
+	padding: 30px 0;
+	min-height: 200px;
+	a{
+		color: #FFF;
+		
+	}
+	ul{
+		li{
+			a{
+				&:hover{
+				text-decoration: underline;
+				background-color: transparent;
+				}
+		}	}
+	}
+}

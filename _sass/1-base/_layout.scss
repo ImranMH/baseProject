@@ -1,0 +1,53 @@
+.section-primary{
+	@include add-background($primary-color);
+}
+.section-secondary{
+	@include add-background($secondary-color);
+}
+.section-light{
+	@include add-background($light-color);
+}
+.section-dark{
+	@include add-background($dark-color);
+}
+.page-heading{
+	margin-bottom: 30px;
+	text-transform: capitalize;
+}
+.heading-primary{
+	margin-top: 20px !important;
+	color:$primary-color;
+}
+.heading-secondary{
+	margin-top: 20px !important;
+	color:$secondary-color;
+}
+.no-pad-top{
+	padding-top: 0;
+	margin-top: 0;
+}
+.ext-pad{
+	padding: 40px 0;
+}
+.cp{
+	color:$primary-color;
+}
+.cs{
+	color:$secondary-color;
+}
+.cl{
+	color:$light-color;
+}
+.cl{
+	color:$dark-color;
+}
+.oh{
+	overflow: hidden;
+}
+img.device{
+	max-width: 100%;
+}
+.device-small{
+	width: 60%;
+	margin-bottom: -215px;
+}

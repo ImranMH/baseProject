@@ -1,0 +1,49 @@
+/* se-block-4 */
+.fa-border{
+	border-radius: 5px;
+	@include add-border(1px ,$primary-color, all);
+	padding: 10px 13px;
+}
+.fa-primary{
+	@extend .fa-border;
+	color:$primary-color;
+}
+
+
+
+
+/* section light */
+
+
+
+
+.list{
+	margin-bottom: 30px;
+}
+.list-feature{
+	
+	margin: 0;
+	padding: 0;
+	width: 80%;
+	@extend .list;
+	li{
+		line-height: 2.2em;
+		@include add-border(1px, #ccc, bottom);
+		&:last-child{
+			border: 0;
+		}
+	}
+	span{
+		font-size: 120%;
+		line-height: 3.0;
+		vertical-align: top;
+		padding-top: 9px;
+	}
+	i{
+		//margin-top: -9px;
+		margin-right: 10px;
+	}
+}
+
+
+/* sec-6 */

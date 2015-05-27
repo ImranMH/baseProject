@@ -1,0 +1,30 @@
+/* // typography design */
+body{
+	font-family:$base-font-family;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	color: base-font-color;
+}
+a{
+	color: $primary-color;
+}
+a:hover{
+	
+}
+ul,li{
+	list-style: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-top: 0;
+}
+input, textarea, button{
+	@include border-top-radius(0px);
+}
+
+section{
+	padding:30px 0 ;
+}

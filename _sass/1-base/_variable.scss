@@ -1,14 +1,21 @@
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+//$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: "Segoe UI","Segoe wp","Segoe Regular", sans-sarif ;
+$base-font-size:   15px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.7em;
 
 $spacing-unit:     30px;
+$base-font-color:  #666;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$primary-color:  	#00aff0;
+$secondary-color:   #7fba00;
+$light-color:	 	#e4eef2;
+$dark-color:     	#333333;
+
+$section-height: 400px;
+//section showcase.........................
+
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
