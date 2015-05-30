@@ -1,0 +1,48 @@
+/* coresol */
+.carousel{
+	margin-bottom: 30px;
+}
+
+.carousel img{
+	padding: 3px;
+	@include add-border(3px ,#ccc, all)
+}
+/* tabs */
+
+
+.tab-primary .nav-tabs > li.active > a, .tab-primary .nav-tabs > li.active > a:hover,.tab-primary .nav-tabs > li.active > a:focus{
+	background: $primary-color;
+}
+.tab-primary .tab-content .tab-pane{
+	background: $primary-color;
+	padding: 20px 10px;
+	border-radius:5px;
+	margin-bottom: 20px;
+}
+.tab-secondary .nav-tabs > li.active > a, .tab-secondary .nav-tabs > li.active > a:hover, .tab-secondary .nav-tabs > li.active > a:focus{
+	background: $secondary-color;
+}
+.tab-secondary .tab-content .tab-pane{
+	background: $secondary-color;
+	padding: 20px 10px;
+	border-radius:5px;
+	margin-bottom: 20px;
+}
+.tab-light .nav-tabs > li.active > a, .tab-light .nav-tabs > li.active > a:hover, .tab-light .nav-tabs > li.active > a:focus{
+	background: $light-color;
+}
+.tab-light .tab-content .tab-pane{
+	background: $light-color;
+	padding: 20px 10px;
+	border-radius:5px;
+	margin-bottom: 20px;
+}
+.tab-dark .nav-tabs > li.active > a, .tab-dark .nav-tabs > li.active > a:hover, .tab-dark .nav-tabs > li.active > a:focus{
+	background: $dark-color;
+}
+.tab-dark .tab-content .tab-pane{
+	background: $dark-color;
+	padding: 20px 10px;
+	border-radius:5px;
+	margin-bottom: 20px;
+}

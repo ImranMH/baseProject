@@ -6,6 +6,11 @@
 		margin-top: 0;
 		padding-top: 0;
 	}
+	iframe{
+		width: 100%;
+		padding: 0;
+		height: auto;
+	}
 }
 .block-primary{
 	@extend .block;
@@ -25,4 +30,36 @@
 }
 .block-center{
 	text-align: center;
+}
+.block-image{
+	@include add-border(1px,#ccc, all);
+	 img{
+		width: 100%;
+	}
+}
+.block-primary-head{
+	h3{
+		@include add-background($primary-color);
+		padding: 10px 10px 15px;
+		margin: 0;
+	}
+	.block-content{
+		@include add-border(1px, $primary-color, all);
+		padding: 10px;
+	}
+}
+.block-icon{
+	h3{
+		margin: 0;
+		padding: 0;
+	}
+	.icon{
+		float: left;
+		width: 20%;
+		margin-top: 10px;
+	}
+	.icon-content{
+		float: left;
+		width: 70%;
+	}
 }

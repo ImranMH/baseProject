@@ -16,6 +16,9 @@
 		h1{
 			color:$light-color;
 		}
+		p{
+			color:#777;
+		}
 	}
 }
 .show_img_wrap{
@@ -32,4 +35,13 @@
 		 }
 		 
 	}
+}
+
+@media (max-width: 990px) {
+	.showcase{
+		.showcasetext{
+			padding: 0 50px;
+		}
+	}
+  
 }

@@ -1,5 +1,14 @@
+//section
 .section-primary{
 	@include add-background($primary-color);
+}
+.section-primary-a{
+	@extend .section-primary;
+	@include add-border(4px,$secondary-color, top);
+}
+.section-primary-b{
+	@extend .section-primary;
+	@include add-border(4px,$secondary-color, bottom);
 }
 .section-secondary{
 	@include add-background($secondary-color);
@@ -10,25 +19,59 @@
 .section-dark{
 	@include add-background($dark-color);
 }
+//heading
 .page-heading{
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	text-transform: capitalize;
+	padding-bottom: 15px;
+}
+.page-header{
+	margin-top: 15px;
 }
 .heading-primary{
 	margin-top: 20px !important;
 	color:$primary-color;
 }
+.heading-primary-a{
+	@extend .heading-primary;
+	@include add-border(4px,$primary-color, bottom);
+}
 .heading-secondary{
 	margin-top: 20px !important;
 	color:$secondary-color;
 }
+.heading-secondary-a{
+	@extend .heading-secondary;
+	@include add-border(4px,$secondary-color, bottom);
+}
+.heading-light{
+	margin-top: 20px !important;
+	color:$light-color;
+}
+.heading-light-a{
+	@extend .heading-light;
+	@include add-border(4px,$light-color, bottom);
+}
+.heading-dark{
+	margin-top: 20px !important;
+	color:$dark-color;
+}
+.heading-dark-a{
+	@extend .heading-dark;
+	@include add-border(4px,$dark-color, bottom);
+}
+//section padding
 .no-pad-top{
 	padding-top: 0;
 	margin-top: 0;
 }
+.top-inner{
+	padding: 90px 0 30px;
+}
 .ext-pad{
 	padding: 40px 0;
 }
+//color
 .cp{
 	color:$primary-color;
 }
@@ -38,12 +81,32 @@
 .cl{
 	color:$light-color;
 }
-.cl{
+.cd{
 	color:$dark-color;
 }
 .oh{
 	overflow: hidden;
 }
+//image
+.img-xm{
+	width: 100px;
+}
+.img-sm{
+	width: 200px;
+}
+.img-md{
+	width: 300px;
+}
+.img-lg{
+	width: 500px;
+}
+.img-xl{
+	width: 700px;
+}
+.img-fix{
+	width: 100%;
+}
+
 img.device{
 	max-width: 100%;
 }

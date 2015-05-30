@@ -1,0 +1,9 @@
+/* coresol */
+.carousel{
+	margin-bottom: 30px;
+}
+
+.carousel img{
+	padding: 3px;
+	@include add-border(3px ,#ccc, all)
+}

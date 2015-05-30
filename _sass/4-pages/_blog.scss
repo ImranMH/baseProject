@@ -1,0 +1,35 @@
+/* blog section */
+.blog-post{
+	@include add-border(1px, #ccc, top);
+	@include add-border(1px, #ccc, left-right);
+	padding: 15px;
+}
+.img-blog-featured{
+	float: left;
+	margin-right: 15px;	
+}
+.post-meta{
+	background: #f3f3f3;
+	padding: 10px 10px;
+	@include add-border(1px, #ccc, all);
+	margin-bottom: 25px;
+	a{
+		color: $dark-color;
+		margin-left: 5px;
+	}
+}
+
+
+//list comments
+.list-comments{
+	li{
+		@include add-border(1px, #ccc,bottom);
+		padding: 10px 0 5px;
+		&:last-child{
+			@include add-border(0px, #ccc,bottom);
+		}
+	}
+	img{
+		width: 100px;
+	}
+}
