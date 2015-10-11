@@ -1,0 +1,125 @@
+
+nav{
+	background: $primary-color;
+	ul.nav-menu{
+		margin: 0;
+		padding: 0;
+		//margin-bottom: 20px;
+		@include clearfix;
+
+		li{
+			float: left;
+			border-bottom: 5px solid transparent;
+			
+			a{
+				color: #FFF;
+				text-transform: capitalize;
+				text-decoration: none;
+				
+				display: block;
+				padding: 10px 20px;
+				transition: all .3s ease-in-out;
+				
+
+				i{
+					display: none;
+					width:40px;
+					height:30px;
+				}
+				span{
+					display: block;
+					width:40px;
+					height:30px;
+				}
+				&:hover{
+					span {
+						display: none;
+					}
+					i{
+						display: block;
+					}
+				}
+			}
+			&:hover{
+				border-bottom: 5px solid #69a0b6;
+				a{
+					background: darken($primary-color, 30%);
+				}
+			}
+		}
+	}
+
+}
+	.nav-menu{
+		.active{
+			border-bottom: 5px solid #69a0b6;
+			a{
+				background: darken($primary-color, 30%);
+				span{
+					display: none;
+				}
+				i{
+					display: block;
+				}
+			}
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navigation
+.navbar{
+	//width: 80%;
+	margin: auto;
+	@include add-border(5px,$light-color, "left-right");
+	min-height: 60px;
+	background: #fff;
+	margin-bottom: 30px;
+	border-color: $light-color;
+	
+	a{
+		color: $primary-color !important;
+		font-size: 20px;
+		letter-spacing: -0.5px;
+		//padding:20px 0 24px 0 !important;
+	}
+}
+
+ */

@@ -1,0 +1,55 @@
+<!-- fixed footer -->
+
+<footer class="footer-main fixed ">
+  <div class="container">
+    <div class="row col-md-4">
+      <a href=""><h4>Get The Skyapp</h4></a>
+      <ul>
+        <li class=""><a href="">App Store</a></li>
+        <li class=""><a href="">Google Play</a></li>
+        <li class=""><a href="">Android Market</a></li>
+        <li class=""><a href="">Mindows</a></li>
+        <li class=""><a href="">Google Crome store</a></li>
+      </ul>
+    </div>
+    <div class="row col-md-4">
+      <a href=""><h4>About</h4></a>
+      <ul>
+        <li class=""><a href="">What is skay app</a></li>
+        <li class=""><a href="">View out Product</a></li>
+        <li class=""><a href="">Support </a></li>
+        <li class=""><a href="">Career</a></li>
+        <li class=""><a href="">Web Development</a></li>
+      </ul>
+    </div>
+    <div class="row col-md-4">
+      <a href=""><h4>support</h4></a>
+      <ul>
+        <li class=""><a href="">Our comunity</a></li>
+        <li class=""><a href="">Send a ticket</a></li>
+        <li class=""><a href="">Android Market</a></li>
+        <li class=""><a href="">Contact With us</a></li>
+        <li class=""><a href="">Google Crome store</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+  <script src="js/vendor/jquery/dist/jquery.js"></script>
+<script>
+  $(function () {
+  $(window).scroll(function() {
+    //alert('works');
+    var wScroll = $(this).scrollTop();
+    
+    //var wScroll = $(this).scrollTop();
+    if(wScroll > 10) {
+      $('footer').addClass('hide-footer');
+      $('body section:last-child').addClass('last')
+    }
+    if(wScroll == 0) {
+      $('footer').removeClass('hide-footer');
+    }
+  });
+  
+})
+</script>

@@ -1,0 +1,45 @@
+nav{
+	background: $secondary-color;
+	ul.nav-menu{
+		margin: 0;
+		padding: 0;
+		@include clearfix;
+		li{
+			float: left;
+			a{
+				padding: 10px 20px;
+				display: block;
+				
+				text-transform: capitalize;
+				color:$dark-color;
+				border-bottom: 5px solid transparent;
+				span{
+					/* width: 100%;
+					height: 5px;
+					background: $secondary-color;;
+					display: block;
+					transition: all 5s infinite; */
+					
+				}
+				&:hover{
+					text-decoration: none;
+					color:$secondary-color;
+					background: $light-color;
+					border-bottom: 5px solid $primary-color;
+					// span{
+					// 	background: $primary-color;
+					// }
+				}
+			}
+		
+		
+		}
+
+	}
+}
+
+
+
+
+
+

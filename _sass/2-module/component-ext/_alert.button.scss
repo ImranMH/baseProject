@@ -1,0 +1,39 @@
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.full{
+	width: 1000px;
+	margin: 0 auto;
+}
+.container .left,
+.container .right{
+	float: left;
+	width: calc(50% - 20px);
+	padding: 10px;
+}
+.alert{
+	background: #bbb;
+	color:#fff;
+	padding: 20px;
+	font-size: .9em;
+	transition: opacity .6s ease-in;
+	
+}
+.alert.success{
+	background: #5a4;
+}
+.alert.error{
+	background: #f77;
+}
+.alert.vanish{
+	opacity: 0;
+}
+.alert .close{
+	color: #FFF;
+	text-decoration: none;
+	float: right;
+	padding: 10px;
+	position: relative;
+	top:-15px;
+	right: -10px;

@@ -1,0 +1,116 @@
+/*navigation menu*/
+nav{
+	//margin-top: 20px;
+	background: #00c;
+}
+ul.megamenu{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+	li{
+		float: left;
+		border: 1px solid #005;
+		&:hover a{
+			background: #009;
+		}
+		&:hover ul.submenu{
+			display: block;
+		}
+		a{
+			display: block;
+			padding: 15px 25px;
+			color: #FFF;
+			font-size: 20px;
+			font-weight: 500;
+			text-decoration: none;
+			text-transform: capitalize;
+
+		}
+		ul.submenu{
+			position: absolute;
+			left:0;
+			top:47px;
+			background: #00c;
+			width: 100%;
+			display: none;
+			li{
+					width: 24%;
+					border-bottom: 1px solid #ededed;
+					&:hover >a{
+						background: #0cf;
+					}
+				ul{
+					position:  static;
+					li{
+						  float: none;
+ 							width: 100%;
+ 							&:hover a{
+ 								background: #005;
+ 							}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+/* nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+	
+} */
+/* nav ul li{
+	float: left;
+	border: 1px solid #005;
+	
+}
+ul.megamenu li a{
+	display: block;
+	padding: 10px 15px;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: capitalize;
+} */
+/* ul.megamenu ul.submenu{
+	position: absolute;
+	left:0;
+	top:40px;
+	background: #00c;
+	width: 100%;
+	display: none;
+} */
+/* nav ul li:hover a{
+	background: #009;
+} */
+/* nav ul li:hover  ul.submenu{
+	display: block;
+} */
+/* ul.megamenu ul.submenu li{
+	width: 24%;
+	border-bottom: 1px solid #ededed;
+} */
+/* ul.megamenu ul.submenu li:hover a{
+	background: #009;
+} */
+/* ul.megamenu ul.submenu li ul{
+	position:  static;
+
+} */
+/* ul.megamenu ul.submenu li ul li{
+  float: none;
+  width: 100%;	
+} */
+/* ul.megamenu ul.submenu li ul li:hover a{
+	background: #005;	
+}
+ul.megamenu ul.submenu li:hover >a{
+	background: #0cf;	
+} */

@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+body{
+	font-family:"PT Sans" , sans-sarif;
+	background: #f5f5f5;
+	// font-size: 62.5%;
+}
+ //.wrapper
+// .container{
+// 	font-size: 1.6em;
+// 	padding: 2em;
+// 	margin: 0 auto;
+// 	width: 95%;
+// 	background: #FFF;
+// }
+
+// bootsrap modification
+.nav > li > a {
+	padding: 0;
+}
+.nav{
+	background: #FFF;
+	width: 100%;
+	height: 43px;
+	position: relative;
+	border: #b2beb5 1px solid;
+	
+	li{
+		list-style-type: none;
+		float: left;
+		text-align: center;
+		width: calc(100% / 8);
+		>a{
+			color: #536267;
+			font-weight: bold;
+			font-size: 0.7em;
+			text-transform: uppercase;
+			line-height: 43px;
+			height: 43px;
+			padding: 0 20px;
+		}
+		&:hover{
+			border-right: 1px solid #b2beb5;
+			border-left:1px solid #b2beb5;
+			>div{
+				display: block;
+			}
+		}
+		>div{
+			position: absolute;
+			left: 0;
+			top: 43px;
+			overflow: hidden;
+			display: none;
+			background-color: #FFF;
+			padding: 10px;
+			-webkit-box-shadow: 2px 4px 2px rgba(0,0,0, .4);
+			        box-shadow: 2px 4px 2px rgba(0,0,0, .4);
+		}
+	}
+}
+.nav-main{
+	width: 100%;
+	border: 1px solid #b2beb5;
+}
+.nav-devider{
+	display: inline-block;
+	width: 1.8%;
+}
+.nav-focus-art{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 11.5%;
+}
+.nav-art-author,.nav-art-title{
+	display: inline-block;
+	padding: 10px 0;
+}
+.nav-art-author{
+	font-size: .9em;
+	color: red;
+}
+.nav-art-title{
+	font-size: 1.4em;
+}
+.nav-art-img{
+	display: inline-block;
+}
+.nav-devider2{
+	display: inline-block;
+	width: 3.6%;
+}
+.nav-headlines{
+	display: inline-block;
+	width: 34.5em;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: left;
+	padding-right: 3px;
+}
+.nav-headlines-links{
+	border-bottom: 1px solid #b2beb5;
+	padding: 10px 0;
+	&:last-child{
+		border-width:0px;
+	}
+}
+.nav-links{
+	display: inline-block;
+	width: 11.95%;
+	vertical-align: top;
+	text-align: left;
+}
+.nav-link{
+	padding-bottom:20px ;
+}
+.nav-empty-cell{
+	padding-top: 41px;
+}
+
+
+
+
+

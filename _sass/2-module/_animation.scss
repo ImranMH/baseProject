@@ -1,0 +1,44 @@
+
+.ani{
+	animation: pulse 1s infinite alternate-reverse;
+}
+.showcas{
+	animation: rotater 10s infinite alternate-reverse;
+}
+
+@keyframes pulse {
+  0% {
+    background-position: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+
+@keyframes rotater {
+  0% {
+  	background-position: top center;
+  }
+  100% {
+   background-position: bottom center;
+  }
+}
+
+
+img.move{
+	color:#fff;
+	-webkit-animation: mv 100s infinite alternate-reverse;
+	   -moz-animation: mv 100s infinite alternate-reverse;
+	     -o-animation: mv 100s infinite alternate-reverse;
+	        animation: mv 100s infinite alternate-reverse;
+
+}
+
+	@keyframes mv {
+	  0% {
+	    transform: rotate(0deg);
+	  }
+	  100% {
+	    transform: rotate(360deg);
+	  }
+	}

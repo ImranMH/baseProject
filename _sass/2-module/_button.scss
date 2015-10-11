@@ -1,8 +1,12 @@
 /* buttons */
+.btn-default{
+	text-transform: capitalize;
+	margin: 20px;
+}
 .btn-primary{
+	@extend .btn-default;
 	background:darken($primary-color, 30%);
 	@include add-border(2px, #fff,all);
-	text-transform: capitalize;
 	&:hover{
 		@include add-border(2px, #fff,all);
 		@include add-background($primary-color) ;
@@ -10,27 +14,28 @@
 }
 
 .btn-secondary{
+	@extend .btn-default;
 	background:darken($secondary-color, 30%);
 	@include add-border(2px, #fff,all);
-	text-transform: capitalize;
+	
 	&:hover{
 		@include add-border(2px, #fff,all);
 		@include add-background($secondary-color) ;
 	}
 }
 	.btn-light{
+	@extend .btn-default;
 	background:darken($light-color, 30%);
 	@include add-border(2px, #fff,all);
-	text-transform: capitalize;
 	&:hover{
 		@include add-border(2px, #fff,all);
 		@include add-background($light-color) ;
 	}
 }
 	.btn-dark{
+	@extend .btn-default;
 	background:darken($dark-color, 30%);
 	@include add-border(2px, #fff,all);
-	text-transform: capitalize;
 	&:hover{
 		@include add-border(2px, #fff,all);
 		@include add-background($dark-color) ;

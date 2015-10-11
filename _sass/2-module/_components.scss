@@ -17,6 +17,7 @@
 	background: $primary-color;
 	padding: 20px 10px;
 	border-radius:5px;
+	border-left-top-radius:0;
 	margin-bottom: 20px;
 }
 .tab-secondary .nav-tabs > li.active > a, .tab-secondary .nav-tabs > li.active > a:hover, .tab-secondary .nav-tabs > li.active > a:focus{
@@ -25,7 +26,7 @@
 .tab-secondary .tab-content .tab-pane{
 	background: $secondary-color;
 	padding: 20px 10px;
-	border-radius:5px;
+	border-radius:5px 5px 5px 0;
 	margin-bottom: 20px;
 }
 .tab-light .nav-tabs > li.active > a, .tab-light .nav-tabs > li.active > a:hover, .tab-light .nav-tabs > li.active > a:focus{
@@ -34,7 +35,7 @@
 .tab-light .tab-content .tab-pane{
 	background: $light-color;
 	padding: 20px 10px;
-	border-radius:5px;
+	border-radius:5px 5px 5px 0;
 	margin-bottom: 20px;
 }
 .tab-dark .nav-tabs > li.active > a, .tab-dark .nav-tabs > li.active > a:hover, .tab-dark .nav-tabs > li.active > a:focus{
@@ -44,5 +45,6 @@
 	background: $dark-color;
 	padding: 20px 10px;
 	border-radius:5px;
+	border-left-top-radius:0;
 	margin-bottom: 20px;
 }

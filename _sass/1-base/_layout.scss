@@ -114,3 +114,13 @@ img.device{
 	width: 60%;
 	margin-bottom: -215px;
 }
+// clearfix
+
+.cf:before,
+.cf:after{
+	content: '';
+	display: table;
+}
+.cf:after{
+	clear: both;
+}

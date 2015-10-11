@@ -1,0 +1,60 @@
+form.awesome-form{
+		input{
+				background: none;
+				border: 1px solid #21a1e1;
+				color: #21A1E1;
+				padding: 15px 40px;
+				font-size: 18px;
+				display: inline-block;
+				&:focus,
+				&:active{
+					outline: none;
+				}
+
+			}
+	.input-group{
+		display: inline-block;
+		margin-right: 10px;
+		position: relative;
+		width:45%;
+		margin-top: 50px;
+		
+		label{
+			position: absolute;
+			left: 0;
+			top: 50%;
+			font-family: georgia, sarif;
+			font-size: 18px;
+			font-style: italic;
+			color: #999;
+			transition: all 0.6s ease;
+			pointer-events:none;
+			transform:translateY(-50%);
+		}
+		input:focus + label,
+		input.has_val + label{
+			top: -10px;
+			font-size: 12px;
+			color: auto;
+			
+		}
+
+	}
+
+	input[type=text],
+	input[type=email]{
+		border: none;
+		border-bottom: #21A1E1 solid 2px;
+		padding: 15px 0;
+	}
+	input[type=submit]{
+		display: block;
+		margin: 50px auto 0 0 ;
+		&:active{
+			background: #21A1E1;
+			color: #fff;
+		}
+	}
+		
+
+}
